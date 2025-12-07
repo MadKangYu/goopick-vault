@@ -1,0 +1,35 @@
+# 법인 구분
+
+## 구조
+
+```
+goopick-vault/
+├── goopick/           # 구픽 (메인)
+├── dojangminjok/      # 도장민족
+├── madstamp/          # 매드스탬프 (개인회사)
+└── madstampinc/       # 매드스탬프 (법인회사)
+```
+
+## 회사 정보
+
+| 코드 | 회사명 | 유형 | 대표 |
+|------|--------|------|------|
+| goopick | 구픽 | - | - |
+| dojangminjok | 도장민족 | - | - |
+| madstamp | 매드스탬프 | 개인회사 | 강유 |
+| madstampinc | 매드스탬프 | 법인회사 | 강유 |
+
+## 각 폴더 구조 (PARA)
+
+```
+[회사명]/
+├── 00-Inbox/
+├── 01-Projects/
+├── 02-Areas/
+├── 03-Resources/
+└── 04-Archives/
+```
+
+## Obsidian 설정
+
+각 회사별로 별도의 Vault 또는 하나의 통합 Vault에서 폴더로 구분
